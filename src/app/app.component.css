@@ -18,8 +18,8 @@
 	/* 视图距元素的距离 相当于摄像机 */
 }
 .cube{
-	width:200px;
-	height:200px;
+	width:300px;
+	height:300px;
 	position:relative;
 	color:#fff;
 	font-size:36px;
@@ -37,26 +37,38 @@
 	border:1px solid #fff;
 	position:absolute;
 	background-color:#333;
-	opacity:.6;
+	opacity:.9;
 	transition:transform 0.4s ease-in;
 }
 .cube .out-front{
-	transform: translateZ(100px);
+	transform: translateZ(150px);
+	background-image: url(/assets/img/luffy.jpeg);
+	background-size: cover;
 }
 .cube .out-back{
-	transform: translateZ(-100px) rotateY(180deg);
+	transform: translateZ(-150px) rotateY(180deg);
+	background-image: url(/assets/img/chopper.jpeg);
+	background-size: cover;
 }
 .cube .out-left{
-	transform: translateX(-100px) rotateY(-90deg);
+	transform: translateX(-150px) rotateY(-90deg);
+	background-image: url(/assets/img/nami.jpeg);
+	background-size: cover;
 }
 .cube .out-right{ 
-	transform: translateX(100px) rotateY(90deg);
+	transform: translateX(150px) rotateY(90deg);
+	background-image: url(/assets/img/sanji.jpeg);
+	background-size: cover;
 }
 .cube .out-top{
-	transform: translateY(-100px) rotateX(90deg);
+	transform: translateY(-150px) rotateX(90deg);
+	background-image: url(/assets/img/usopp.jpeg);
+	background-size: cover;
 }
 .cube .out-bottom{
-	transform: translateY(100px) rotateX(-90deg);
+	transform: translateY(150px) rotateX(-90deg);
+	background-image: url(/assets/img/zoro.jpeg);
+	background-size: cover;
 }
 .cube > span{
 	display:block;
@@ -70,21 +82,33 @@
 }
 .cube .in-front{
 	transform: translateZ(50px);
+	background-image: url(/assets/img/flage.jpg);
+	background-size: cover;
 }
 .cube .in-back{
 	transform: translateZ(-50px) rotateY(180deg);
+	background-image: url(/assets/img/flage.jpg);
+	background-size: cover;
 }
 .cube .in-left{
 	transform: translateX(-50px) rotateY(-90deg);
+	background-image: url(/assets/img/flage.jpg);
+	background-size: cover;
 }
 .cube .in-right{
 	transform: translateX(50px) rotateY(90deg);
+	background-image: url(/assets/img/flage.jpg);
+	background-size: cover;
 }
 .cube .in-top{
 	transform: translateY(-50px) rotateX(90deg);
+	background-image: url(/assets/img/flage.jpg);
+	background-size: cover;
 }
 .cube .in-bottom{
 	transform: translateY(50px) rotateX(-90deg);
+	background-image: url(/assets/img/flage.jpg);
+	background-size: cover;
 }
 .wrap:hover .out-front{
 	transform: translateZ(200px);

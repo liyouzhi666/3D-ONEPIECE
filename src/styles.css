@@ -1,5 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 html{
-	background: url(/assets/img/bgimg.jpg);
+	background-image: url(/assets/img/bgimg.jpg);
+	background-size:cover;
 	height:100%;
+}
+body {
+    display: block;
+    margin: 8px;
+	background-color: transparent !important;
 }
