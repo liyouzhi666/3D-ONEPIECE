@@ -1,7 +1,7 @@
-*{
+/**{
 	margin:0 auto;
 	padding:0;
-}
+}*/
 @keyframes rotate{
 	0%{
 		transform:rotateX(0deg) rotateY(0deg);
@@ -13,6 +13,7 @@
 
 .wrap{
 	margin-top:150px;
+	margin-left: 40%;
 	perspective: 1000px; 
 	width: 30%;
 	/* 视图距元素的距离 相当于摄像机 */
@@ -43,32 +44,38 @@
 .cube .out-front{
 	transform: translateZ(150px);
 	background-image: url(/assets/img/luffy.jpeg);
-	background-size: cover;
+	background-size:300px 300px;
+	background-repeat:no-repeat;
 }
 .cube .out-back{
 	transform: translateZ(-150px) rotateY(180deg);
 	background-image: url(/assets/img/chopper.jpeg);
-	background-size: cover;
+	background-size:300px 300px;
+	background-repeat:no-repeat;
 }
 .cube .out-left{
 	transform: translateX(-150px) rotateY(-90deg);
 	background-image: url(/assets/img/nami.jpeg);
-	background-size: cover;
+	background-size:300px 300px;
+	background-repeat:no-repeat;;
 }
 .cube .out-right{ 
 	transform: translateX(150px) rotateY(90deg);
 	background-image: url(/assets/img/sanji.jpeg);
-	background-size: cover;
+	background-size:300px 300px;
+	background-repeat:no-repeat;
 }
 .cube .out-top{
 	transform: translateY(-150px) rotateX(90deg);
 	background-image: url(/assets/img/usopp.jpeg);
-	background-size: cover;
+	background-size:300px 300px;
+	background-repeat:no-repeat;
 }
 .cube .out-bottom{
 	transform: translateY(150px) rotateX(-90deg);
 	background-image: url(/assets/img/zoro.jpeg);
-	background-size: cover;
+	background-size:300px 300px;
+	background-repeat:no-repeat;
 }
 .cube > span{
 	display:block;

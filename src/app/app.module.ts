@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    AlertModule.forRoot(),
+    // AlertModule.forRoot(),
     BrowserModule,
     FormsModule,
     HttpModule
